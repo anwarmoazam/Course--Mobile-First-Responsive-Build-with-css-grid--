@@ -44,7 +44,8 @@ input,textarea{
 /* fonts */
 @font-face{
     font-family: 'Rubik Regular';
-    src: url('assets/fonts/Rubik-Regular.ttf');
+    src: url(./../assets/fonts/Rubik-Regular.ttf);
+
 }
 h1,h2,h3,h4{
     color: #DDDBFF;
@@ -100,7 +101,7 @@ h4{
     margin: 20px 0;
 }
 #portfolio{
-    background: url(assets/square_bg.png);
+    background: url(./../assets/square_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -167,7 +168,7 @@ h4{
 footer{
     padding: 30px 20px;
     background-color: #14153D;
-    background-image: url(assets/footer_image.png);
+    background-image: url(./../assets/footer_image.png);
     background-size: 40%;
     background-repeat: no-repeat;
     background-position: top center;
